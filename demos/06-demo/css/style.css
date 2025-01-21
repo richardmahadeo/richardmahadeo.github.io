@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: red;
+ }
+
+ #first-paragraph {
+    color: green;
+    background-color: white;
+    font-style: italic;
+    text-align: center;
+ }
+
+ #second-paragraph {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+ }
+ #bold-paragraph{
+    font-weight: bold;
+    background-color: white;
+ }
+ #span1 {
+    color: blue;
+    font-weight: bold;
+    font-size: 40px;
+ }
+ #span2 {
+    font-style: italic;
+ }
+ #span3 {
+    background-color: yellow;
+ }
+ #span4 {
+    text-align: right;
+ }
+    

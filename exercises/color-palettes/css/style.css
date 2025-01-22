@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    text-align: center;
+}
+#color1-p1 {
+    background-color: #b5d6b2;
+    color: white;
+    font-family: Times New Roman, Times, serif;
+    padding: 24px;
+}
+#color2-p1 {
+    background-color: #53131E;
+    color: white;
+    font-family: Times New Roman, Times, serif;
+    padding: 24px;
+}
+#color3-p1 {
+    background-color: #5A464C;
+    color: white;
+    font-family: Times New Roman, Times, serif;
+    padding: 24px;
+}
+#color1-p2 {
+    background-color: #4B7f52;
+    color: white;
+    font-family: sans-serif;
+    padding: 24px;
+}
+#color2-p2 {
+    background-color: #7dd181;
+    color: white;
+    font-family: sans-serif;
+    padding: 24px;
+}
+#color3-p2 {
+    background-color: #B6f9c9;
+    color: white;
+    font-family: sans-serif;
+    padding: 24px;
+}
+#color1-p3 {
+    background-color: #820263;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+}
+#color2-p3 {
+    background-color: #D90368;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+}
+#color3-p3 {
+    background-color: #EADEDA;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+}
+#color4-p3 {
+    background-color: #2E294E;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+}
+#color5-p3 {
+    background-color: #FFD400;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+}

@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    border: 5px outset red;
+    margin: 24px;
+    margin-bottom: 40px;
+    padding: 5%;
+    background-color: palevioletred;
+    color: white;
+}
+p {
+    border: 5px dotted green;
+    margin: 50px;
+    
+    padding: 10%;
+    background-color:yellowgreen;
+    color: white;
+    border-radius: 24px;
+}

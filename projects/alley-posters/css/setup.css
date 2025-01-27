@@ -41,7 +41,7 @@ body {
     border-width: 5px 1px 0px 1px;
     background: 
         radial-gradient(#00000011 50%, #00000088),
-        bottom center/50% url("../images/red-brick-wall.jpg")
+        bottom center/50% url("../images/wall-1.jpg")
         ;
 }
 
@@ -50,7 +50,7 @@ body {
     width: 2400px;
     height: 1200px;
     border-width: 10px 1px;
-    background: center/cover url("../images/sky.jpg");
+    background: center/cover url("../images/wall-2.jpeg");
 }
 
 .floor {

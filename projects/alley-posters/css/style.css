@@ -6,3 +6,12 @@
 
     Good luck, and have fun!
 */
+.img {
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+    border:2px solid black ;
+    margin: 10px;;
+
+
+}

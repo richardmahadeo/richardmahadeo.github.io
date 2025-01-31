@@ -10,8 +10,31 @@
     width: 80px;
     height: 100px;
     object-fit: cover;
-    border:2px solid black ;
-    margin: 10px;;
-
-
+    margin: 10px;
+    opacity: 84%;
+    border:3px solid black ;
+    box-shadow: 1px 1px black;
+}
+#poster-mw2 {
+    transform: rotate(8deg);
+    margin-top: 65px;
+}
+#poster-dino {
+    transform: rotate(-2deg);
+    margin-top: 60px;
+}
+#poster-re {
+    transform: rotate(-1.5deg);
+    margin-top: 70px;
+}
+#text {
+    color:rgb(54, 54, 54);
+    font-weight: bold;
+    padding: 8px;
+    background-color: goldenrod;
+    border: 8px solid gold;
+    border-radius: 12%;
+    border-style:inset ;
+    box-shadow: inset 0px 0px 16px 4px rgb(96, 73, 16);
+    
 }

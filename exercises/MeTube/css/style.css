@@ -20,7 +20,7 @@ body{
 #header {
     grid-area: header;
     padding: 8px 36px;
-    background-color: black;
+    background-color: ;
     text-align: center;
     font-size: larger;
     border-bottom: 4px solid#eeeeee;

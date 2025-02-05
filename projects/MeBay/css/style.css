@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+}
+
+
+#grid-layout {
+    display: grid;
+    margin-top: 36px;
+    grid-template-columns: 1fr 200px 550px 400px 1fr;
+    grid-template-areas: 
+        ".  header       header    header        ."
+        ". left-sidebar main-area right-sidebar .";
+        
+}
+#header {
+    grid-area: header;
+    padding: 8px 36px;
+    background-color: white;
+    text-align: center;
+    font-size: larger;
+    border-bottom: 2px solid#eeeeee;
+}
+#header a {
+    text-decoration: none;
+}
+#header #m{
+    color:purple;
+}
+#header #e{
+    color:red;
+}
+#header #b{
+    color:blue;
+}
+#header #a{
+    color:rgb(236, 200, 0);
+}
+#header #y{
+    color:rgb(153, 219, 54);
+}
+
+#primary-column {
+    padding: 0px 36px;
+    grid-area: main-area; 
+    margin-top:24px ;
+}  
+#primary-column .inner-content {
+    max-width: 600px; 
+    margin: 0px auto; 
+}
+#primary-column .inner-content img {
+    width:100%;
+    border-radius: 10px;
+}
+
+#sidebar-column-1 {
+    margin-left: 24px;
+    grid-area: left-sidebar;
+    margin-top: 24px;
+}
+
+#sidebar-column-1 img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #eeeeee;
+}
+#sidebar-column-2 #product-name{
+    padding-bottom: 15px;
+    border-bottom: 2px solid #eeeeee;
+}
+#sidebar-column-2 {
+    margin-right: 24px;
+    grid-area: right-sidebar;
+}
+#sidebar-column-2 #profile{
+object-fit: cover;
+border-radius: 50%;
+margin-right: 10px;
+width: 60px;
+height: 60px;
+
+}
+#sidebar-column-1 .inner-content,
+#sidebar-column-2 .inner-content {
+    border-radius: 4px;
+    position: sticky;
+    top: 24px;
+    padding-bottom: 12px
+}
+#sidebar-column-2 .inner-content #bull{
+    color: blue;
+}
+#sidebar-column-2 #user span {
+    color: grey;
+}
+#sidebar-column-2 #profile-con {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 2px solid #eeeeee;
+}
+#sidebar-column-2 #condition span {
+    color: gray;
+}
+#sidebar-column-2 #quanity #q1{
+    color: grey;
+    padding-right: 4px;
+} 
+#sidebar-column-2 #quanity #q2{
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 6px 15px;
+    color: gray;
+}
+
+#sidebar-column-2 #quanity #q3{
+    color: red;
+    padding-left: 12px;
+} 
+#buying {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: px;
+
+
+}
+
+#buying #buy{
+    background-color: blue;
+    color: white;
+    padding: 10px 150px;
+    display: block;
+}
+
+#buying #add{
+    border: 2px solid #eeeeee;
+    padding: 10px 140px;
+    display: block;
+    
+    }

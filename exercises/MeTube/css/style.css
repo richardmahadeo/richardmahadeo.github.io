@@ -5,6 +5,7 @@
 body{
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(38, 38, 38);
 }
 
 #grid-layout {
@@ -13,27 +14,37 @@ body{
     grid-template-areas: 
         "header     header"
         "sidebar    main";
+        
 }
 
 #header {
     grid-area: header;
     padding: 8px 36px;
+    background-color: black;
+    text-align: center;
+    font-size: larger;
+    border-bottom: 4px solid#eeeeee;
 }
 #header a {
     text-decoration: none;
 }
 #header #me{
-    color:black;
+    color:white;
 }
 #header #tube {
-    background-color: red;
+    background-color: rgb(255, 98, 0);
     color: white;
     padding: 4px;
     border-radius: 12px;
+   
 }
 
 #sidebar {
     grid-area: sidebar;
+    background-color: rgb(38, 38, 38);
+    border-right: 1px solid#eeeeee;
+    
+    
 }
 #sidebar ul {
     padding: 12px 8px;
@@ -43,7 +54,7 @@ body{
 }
 #sidebar ul a {
     text-decoration: none;
-    color: black;
+    color: white;
     display: block;
     padding: 12px;
 }
@@ -57,6 +68,9 @@ body{
     grid-area: main;
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(38, 38, 38);
+    padding: 12px;
+
 }
 .metube-item {
     text-decoration:none ;
@@ -66,16 +80,24 @@ body{
 }
 .metube-item .thumbnail-placeholder {
     aspect-ratio: 16 / 9; 
-    background: radial-gradient(at top left, crimson, orange);
-    border-radius: 8px;
+    background: rgb(255, 98, 0);
+    border-radius: 30px 0px 14px 14px;
+    
+
+}
+.metube-item .thumbnail-placeholder img{
+    width: 100%;
+    object-fit: cover;
 }
 .metube-item h4{
     margin: 8px;
+    
 }
 .metube-item h4 a{
     text-decoration: none;
     color: 111111;
     display: block;
+    color: rgb(255, 98, 0);
 }
 .metube-item h4 a:hover {
     text-decoration: underline;
@@ -83,6 +105,7 @@ body{
 .metube-item .video-details {
     margin: 8px;
     font-size: 14px;
+    color: white;
 
 }
 .metube-item .channel {

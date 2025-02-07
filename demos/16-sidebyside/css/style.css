@@ -50,7 +50,7 @@ body{
     flex: 1;
 }
 .sidebyside .image-container img {
-width: 100%;
+    width: 100%;
 }
 .sidebyside .text-container h2{
     font-size: 38px;

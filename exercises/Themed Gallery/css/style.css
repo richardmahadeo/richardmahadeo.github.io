@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    background: radial-gradient(at top left, blue, purple); 
+    margin: 36px;
+}
+
+.gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+}
+#hero{
+    background-image: url("../images/ps2.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
+#hero h2 {
+    font-size: 72px;
+    margin-bottom: 36px;
+    color: rgb(250, 233, 255);
+    font-size: 60px;
+}
+    background: radial-gradient(at top left, blue, purple); }

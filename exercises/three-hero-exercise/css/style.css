@@ -53,7 +53,7 @@ body{
 }
 #hero-2-text{
     position: absolute;
-    top:450px;
+    top:45%;
 }
 #hero-2 h2 {
     font-size: 72px;
@@ -74,30 +74,34 @@ body{
 }
 
 #hero-3 {
-    background-image: url("../images/pine-tree-road-forest.jpg");
+    background-image: url("../images/path.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
     display: flex;
     justify-content: center; 
     align-items: center;
-    text-align: center;
+    text-align: right;
+    
+    
 }
 #hero-3-text{
     position: absolute;
-    top:450px;
+    margin-right:36px ;
+    top:1%;
+    left: 50%;
+    
 }
 #hero-3 h2 {
     font-size: 62px;
     max-width: 600px;
     margin-top: 240px;
-    color: rgb(248, 214, 60);
-    background-color: rgba(0, 0, 0, 0.468);
+    color:rgb(255, 255, 255);
+    
 }
 #hero-3 h4 {
-
     font-size: 24px;
-    color: rgb(255, 230, 0);
+    color: white;
 }
 #hero-3 a{
     font-size: 14px;

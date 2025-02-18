@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar-1 {
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(rgb(105, 141, 76), rgb(108, 144, 74));
+    padding: 36px;
+    align-items: center;
+}
+#navbar-1 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#navbar-1 #logo{
+    font-weight: 750;
+    font-size: 28px;
+    color: white;
+}
+#navbar-1 a:hover{
+    text-decoration: underline;
+}
+
+#navbar-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background:linear-gradient(orange, rgb(255, 161, 20));
+    padding: 30px;
+    border-bottom: 20px solid rgb(255, 136, 0);
+}
+#navbar-2 a{
+    text-decoration: none;
+
+}
+#navbar-2 #logo{
+    font-size: 36px;
+    font-weight: 800;
+    color: blue;
+}
+#navbar-2 #sub{
+    padding: 16px;
+    background-color: white;
+    border-radius: 20px;
+    color: red;
+    font-weight: 600;
+}
+#navbar-2 #click a{
+    padding: 20px;
+    color: blue;
+    font-size: 20px;
+}
+
+#navbar-3 h2{
+    background-color: purple;
+    text-align: center;
+    color: white;
+    padding: 2px;
+    font-weight: bold;
+    margin: 0px;
+}
+#navbar-3 {
+    background:linear-gradient(orange, rgb(204, 78, 39));
+}
+#navbar-3 #navbottom {
+    display: flex;
+    padding: 12px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.44);
+    border-top: 2px solid rgba(255, 255, 255, 0.44);
+    background:linear-gradient(orange, rgb(204, 78, 39));
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#navbar-3 #navbottom a{
+    color: white;
+    padding: 0px 26px;
+}
+#navbar-3 #sub{
+    padding: 15px;
+    background-color: white;
+    color: purple;
+}
+#navtop {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 36px 24px;
+    align-items: center;
+}
+#navbar-3 a{
+    color: purple;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0px 20px 0px 0px;
+}
+#navbar-3 #logo{
+    font-weight: 800;
+    color: white;
+    font-size: 30px;
+}
+#navbar-3 #links a:hover{
+    color: white;
+}
+

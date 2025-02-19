@@ -452,6 +452,7 @@ body {
             "  aside   blog    blog    "
             "  footer  footer  footer  "
             "  bottom  bottom  bottom  ";
+            
     }
     #grid-layout #header h1{
         font-size: 70px;
@@ -482,7 +483,8 @@ body {
     }
     #grid-layout #header {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
         align-items: center;
         text-align: center;
     }
@@ -492,11 +494,24 @@ body {
     #search-button {
         display: none;
     }
-    
     #grid-layout #header h1{
         font-size: 60px;
         padding: 6px;
         min-width: 60px;
     }
-    
+    #grid-layout #nav{
+        display: flex ;
+        flex-wrap: wrap;
+    }
+    #banner-container,
+    #card-1,
+    #card-2,
+    #card-3,
+    #aside,
+    #main  {
+        padding: 0px;
+        margin: 0px;
+        background-color: none;
+
+    }
 }

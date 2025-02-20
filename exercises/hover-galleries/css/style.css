@@ -191,3 +191,76 @@ body{
 
 /* Last gallery */
 
+
+#cards-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 40px;
+}
+#cards-container3 .card-3{
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 5px solid black;
+    border-radius: 25px;
+    text-align: center;
+    margin:40px;
+    
+}
+#cards-container3 a{
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.487);
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    
+}
+#cards-container3 #card1-g3{
+    background-color: red;
+}
+#cards-container3 #card1-g3:hover{
+    box-shadow: 0px 0px 50px red;
+    padding: 50px;
+    visibility: hidden;
+    transition: 
+        visibility 0.5s,
+        transform 0.5s, 1s;
+    height: 300px;
+}
+#cards-container3 #card2-g3{
+    background-color: blue;
+}
+#cards-container3 #card2-g3:hover{
+    box-shadow: 0px 0px 50px blue;
+    padding: 50px;
+    visibility: hidden;
+    transition: 
+        visibility 0.5s,
+        transform 0.5s, 1s;
+    height: 300px;
+}
+#cards-container3 #card3-g3{
+    background-color: green;
+}
+#cards-container3 #card3-g3:hover{
+    box-shadow: 0px 0px 50px rgb(30, 244, 30) ;
+    padding: 50px;
+    visibility: hidden;
+    transition: 
+        visibility 0.5s,
+        transform 0.5s, 1s;
+    height: 300px;
+}
+#cards-container3 #card4-g3{
+    background-color: yellow;
+}
+#cards-container3 #card4-g3:hover{
+    box-shadow: 0px 0px 50px rgb(255, 213, 0);
+    padding: 50px;
+    visibility: hidden;
+    transition: 
+        visibility 0.5s,
+        transform 0.5s, 1s;
+    height: 300px;
+}

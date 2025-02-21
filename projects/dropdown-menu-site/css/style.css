@@ -75,7 +75,7 @@ body{
 /* hero */
 
 #hero {
-    background-image: url(../images/pet-hero.jpg);
+    background-image: url("../images/pet-hero.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -99,7 +99,7 @@ body{
 /* Card */
 
 .card-container{
-    background-image: url(../images/pet-texture.jpg);
+    background-image: url("../images/pet-texture.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;

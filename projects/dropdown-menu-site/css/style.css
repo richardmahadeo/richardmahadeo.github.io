@@ -19,9 +19,59 @@ body{
     text-decoration: none;
     color: black;
     font-size: 30px;
-    font-weight: 700;
-
+    font-weight: 700;    
 }
 #nav #logo span{
-    color: rgb(29, 143, 205);
+    color: rgb(205, 29, 111);
+}
+#nav #links{
+    display: flex;
+}
+#nav #links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 590;
+    font-size: 18px;
+    padding-left: 36px;
+    
+}
+#nav #links a:hover {
+    text-decoration: underline;
+}
+
+/* Dropdown */
+
+#links a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+.dropdown-container {
+    position: relative;
+}
+.dropdown {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+.dropdown-container:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-container .dropdown a{
+    background-color: white;
+    width: 100%;
+    min-width: 200px;
+}
+#nav #links .dropdown a:hover {
+    background: white;
+    color: rgb(205, 29, 111);
+}
+
+#hero {
+    background-image: url(../images/pet-hero.jpg);
 }

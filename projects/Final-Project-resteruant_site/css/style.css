@@ -17,7 +17,7 @@ body{
 #nav #logo {
     text-align: center;
 }
-#nav #logo img{
+#nav #logo img {
     width:250px;
     padding: 16px 16px 0px;
 
@@ -28,11 +28,11 @@ body{
     background-color: #554f3e;
     padding: 8px;
 } 
-#nav #links a{
+#nav #links a {
     text-decoration: none;
     color: white;
 }
-#nav #links a:hover{
+#nav #links a:hover {
     color: #FF5B4D;
     text-decoration: underline;
 }
@@ -50,14 +50,14 @@ body{
     text-align: center;
     
 }
-#hero-container #hero h2{
+#hero-container #hero h2 {
     color: white;
     font-size: 70px;
     font-weight: 800;
     max-width: 400px;
     
 }
-#hero-container #hero a{
+#hero-container #hero a {
     padding: 24px 40px;
     background-color: #FF5B4D;
     color: white;
@@ -73,7 +73,7 @@ body{
     top: 40%;
     
 }
-#hero-container #hero a:hover{
+#hero-container #hero a:hover {
     background-color: #E5C76D;
     border: 4px solid white;
     
@@ -81,7 +81,7 @@ body{
 
 /* footer */
 
-#footer{
+#footer {
     display: flex;
     background-color: #000000;
     flex-direction: column;
@@ -89,34 +89,32 @@ body{
     padding: 40px;
     border-left:4px solid #FF5B4D ;
 }
-#footer h2{
+#footer h2 {
     color: white;
     padding:6px 0px;
     border-bottom: 2px solid white;
     margin-bottom: 30px;
     width: 200px;
 }
-#footer-links a{
+#footer-links a {
     font-size: 26px;
     color: white;text-decoration: none;
     margin-bottom: 12px;
-    
-
 }
-#footer-links{
+#footer-links {
     display: flex;
     flex-direction: column;
 }
-#footer p{
+#footer p {
     color: white;
     font-weight: 200;
 }
-#footer a:hover{
+#footer a:hover {
     color: #FF5B4D;
 
     /* menu */
 }
-#menu{
+#menu {
     display: grid;
     grid-template-columns: 250px 1fr;
     grid-template-areas: 
@@ -126,24 +124,24 @@ body{
         "sidebar main1"
         "sidebar heading2"
         "sidebar main2"
-         "sidebar heading3"
+        "sidebar heading3"
         "sidebar main3"
         ;
     
 }
-#menu #title{
+#menu #title {
     grid-area: title;
 }
-#menu #feature{
+#menu #feature {
     grid-area: feature;
 }
-#menu #heading1{
+#menu #heading1 {
     grid-area: heading1;
 }
-#menu #heading2{
+#menu #heading2 {
     grid-area: heading2;
 }
-#menu #heading3{
+#menu #heading3 {
     grid-area: heading3;
 }
 #menu #food1 {
@@ -153,12 +151,12 @@ body{
 {
     grid-area: main2;
 }
-#menu #food3{
+#menu #food3 {
     grid-area: main3;
 }
 
 /* feature */
-#menu #title h1{
+#menu #title h1 {
     background-color: #333333;
     padding: 24px 24px 0px 24px;
     margin: 0px;
@@ -171,7 +169,7 @@ body{
     padding: 24px;
     color: white;
 }
-#menu #feature img{
+#menu #feature img {
     width: 100%;
     padding: 24px;
     height: 500px;
@@ -179,7 +177,7 @@ body{
     border: 4px solid #FF5B4D;
     
 }
-#menu #feature .name{
+#menu #feature .name {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -189,7 +187,7 @@ body{
 
 /* sidebar */
 
-#menu #sidebar{
+#menu #sidebar {
     grid-area: sidebar;
     padding: 0px 24px;
     display: flex;
@@ -197,25 +195,24 @@ body{
     background: linear-gradient(to left, #D1D3D4, #e3dbdb);
     border-left: 5px solid #FF5B4D;
 }
-#menu #sidebar h2{
+#menu #sidebar h2 {
     padding: 4px 0px;
     border-bottom: 2px solid black;
 
-}#menu h1 span{
+}#menu h1 span {
     font-size: 20px;
-    
 }
-#menu #sidebar a{
+#menu #sidebar a {
     text-decoration: none;
     color: #333333;
     font-size: 20px;
     margin-bottom: 4px;
 }
 
-#menu #sidebar a:hover{
+#menu #sidebar a:hover {
     color: #FF5B4D;
 }
-#menu .heading-menu{
+#menu .heading-menu {
     background-color: #333333;
     color: white;
     padding:0px 24px;
@@ -227,33 +224,124 @@ body{
     flex-wrap: wrap; 
     background-color: #333333;
 }
-#menu .food .card{
+#menu .food .card {
     width: 300px;
     display: flex;
     flex-direction: column;
     color: white;
     margin: 24px;
 }
-#menu .food .card a{
+#menu .food .card a {
     color: white;
     text-decoration: none;
 }
-#menu .food .card p{
+#menu .food .card p {
     margin: 0;
 }
-#menu .food .card .name{
+#menu .food .card .name {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-#menu .food .card img{
+#menu .food .card img {
     width: 300px;
     height: 250px;
     object-fit: cover;
     border-bottom: 3px solid #FF5B4D;
 }
 
-#menu .food .card img:hover{
-    object-fit:;
+#menu .food .card img:hover {
+    opacity: 80%;
+}
+#menu #feature img:hover {
+    opacity: 80%;
+}
+
+@media screen and (min-width: 1700px) {
+    #menu #feature{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    #menu #title{
+        text-align: center;
+    }
+    #menu #feature .name{
+        display: flex;
+        flex-direction: column;
+    }
+    #menu #feature img{
+        height: 600px;
+        width: 60%;
+    }
+    #menu #feature title {
+        font-size: 75px;
+    }
+    #menu {
+        display: grid;
+        grid-template-columns: 350px 1fr;
+        grid-template-areas: 
+            "sidebar title"
+            "sidebar feature"
+            "sidebar heading1"
+            "sidebar main1"
+            "sidebar heading2"
+            "sidebar main2"
+             "sidebar heading3"
+            "sidebar main3"
+            ;
+        }
+
+        #menu .food .card img {
+            width: 400px;
+            height: 350px;
+        }
+        #menu .food .card {
+            width: 400px;
+            margin: 24px;
+        }
+        #menu #feature .name {
+            border-bottom: 4px solid #e3dbdb;
+            font-size: 20px;
+        }
+}
+
+@media screen and (max-width: 950px) and (min-width: 450px){
+    #menu #sidebar {
+        display: none;
+    }
+    #menu {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "title"
+            "feature"
+            "heading1"
+            "main1"
+            "heading2"
+            "main2"
+            "heading3"
+            "main3"
+            ;
+        }
+        #menu .food {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        #menu .heading-menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        #menu #title {
+            display: flex;
+            background-color: #333333;
+            justify-content: center;
+            
+        }
 }

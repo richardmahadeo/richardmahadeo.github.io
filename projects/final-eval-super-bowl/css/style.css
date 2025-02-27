@@ -103,13 +103,18 @@ body {
 #info #text h2 {
     font-size: 30px;
 }
-#info #text h4 {
+#info #text p{
     font-size: 24px;
+    width: 90%;
+}
+#info #text h4 {
+    font-size: 16px;
     color: goldenrod;
     text-decoration: underline;
     margin-bottom: 38px;
 }
 #info #text h3 {
+    font-size: 16px;
     margin: px;
     padding: 24px;
 }

@@ -105,7 +105,7 @@ body {
 }
 #info #text p{
     font-size: 24px;
-    width: 90%;
+
 }
 #info #text h4 {
     font-size: 16px;
@@ -115,7 +115,6 @@ body {
 }
 #info #text h3 {
     font-size: 16px;
-    margin: px;
     padding: 24px;
 }
 
